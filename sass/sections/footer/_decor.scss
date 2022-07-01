@@ -1,0 +1,19 @@
+.container.footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-item {
+  background-color: #2f303a;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-item .logo {
+  margin-right: 0;
+}
+
+.footer-item .link {
+  margin-bottom: 20px;
+}
