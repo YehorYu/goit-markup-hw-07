@@ -8,16 +8,16 @@
   letter-spacing: 0.03em;
 }
 
-.header-title .logo {
+.header__title .logo {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 93px;
 }
 
-.header-item:not(:last-child) {
+.header__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.logo-item {
+.logo__item {
   color: var(--accent-color);
 }

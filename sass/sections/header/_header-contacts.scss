@@ -1,4 +1,4 @@
-.header-list .link {
+.header__list .link {
   display: block;
 
   font-style: normal;
@@ -10,25 +10,25 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-list .link:hover,
-.header-list .link:focus {
+.header__list .link:hover,
+.header__list .link:focus {
   color: var(--accent-color);
 }
 
-.header-list .link:hover.header-link::after,
-.header-list .link:focus.header-link::after {
+.header__list .link:hover.header__link::after,
+.header__list .link:focus.header__link::after {
   opacity: 1;
 }
 
-.header-list .link.current {
+.header__list .link.current {
   color: var(--accent-color);
 }
 
-.header-list .link.current.header-link::after {
+.header__list .link.current.header__link::after {
   opacity: 1;
 }
 
-.contact-list {
+.contact__list {
   display: flex;
   font-style: normal;
   font-weight: 500;
@@ -41,17 +41,17 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link {
+.header__link {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.contact-list:hover,
-.contact-list:focus {
+.contact__list:hover,
+.contact__list:focus {
   color: var(--accent-color);
 }
 
-.contact-list:hover .icon-img,
-.contact-list:focus .icon-img {
+.contact__list:hover .icon-img,
+.contact__list:focus .icon-img {
   fill: var(--accent-color);
 }

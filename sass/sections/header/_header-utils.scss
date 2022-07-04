@@ -1,18 +1,16 @@
-.header-title .container {
-  display: flex;
-  align-items: center;
+.header__title .container {
+  @include display(flex, null, center);
 }
 
-.header-title {
+.header__title {
   border-bottom: 1px solid #ececec;
 }
 
-.header-nav {
-  display: flex;
-  align-items: center;
+.header__nav {
+  @include display(flex, null, center);
 }
 
-.header-list {
+.header__list {
   display: flex;
 }
 

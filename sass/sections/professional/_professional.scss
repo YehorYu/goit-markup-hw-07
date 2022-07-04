@@ -5,9 +5,9 @@
   padding-top: 94px;
 }
 
-.professional-title,
-.team-title,
-.clients-title {
+.professional__title,
+.team__title,
+.clients__title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -18,23 +18,21 @@
   margin-bottom: 50px;
 }
 
-.professional-list {
+.professional__list {
   display: flex;
 }
 
-.professional-item {
+.professional__item {
   position: relative;
   margin-left: 30px;
 }
 
-.professional-item:nth-last-child(3n) {
+.professional__item:nth-last-child(3n) {
   margin-left: 0;
 }
 
-.professional-thumb-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.professional__thumb-text {
+  @include display(flex, center, center);
 
   position: absolute;
   bottom: 0;

@@ -1,4 +1,4 @@
-.modal-label-chb {
+.modal__label-chb {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -7,21 +7,19 @@
 
   color: var(--primery-text-color);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include display(flex, center, center);
 
   margin-top: 20px;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-wrap {
+.modal__wrap {
   position: relative;
   display: flex;
 }
 
-.modal-icon {
+.modal__icon {
   position: absolute;
   left: 10px;
   top: 50%;
@@ -31,7 +29,7 @@
   fill: inherit;
 }
 
-.modal-chb {
+.modal__chb {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -40,8 +38,7 @@
 }
 
 .icon {
-  display: block;
-  align-items: center;
+  @include display(block, null, center);
   width: 15px;
   height: 15px;
 
@@ -53,11 +50,11 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-chb:focus + .icon {
+.modal__chb:focus + .icon {
   border-color: var(--accent-color);
 }
 
-.modal-chb:checked + .icon {
+.modal__chb:checked + .icon {
   border-color: transparent;
   background-color: #2196f3;
   background-image: url(../images/icon-check.svg);
@@ -66,10 +63,10 @@
   background-origin: border-box;
 }
 
-.modal-link {
+.modal__link {
   color: #2196f3;
 }
 
-.modal-send-btn {
+.modal__send-btn {
   margin-top: 30px;
 }

@@ -2,7 +2,7 @@
   padding-bottom: 94px;
 }
 
-.preferences-icon {
+.preferences__icon {
   width: 270px;
   height: 120px;
 
@@ -10,12 +10,10 @@
   border-radius: 4px;
   margin-bottom: 30px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include display(flex, center, center);
 }
 
-.preferences-item {
+.preferences__item {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -26,22 +24,22 @@
   margin-bottom: 10px;
 }
 
-.preferences-list {
+.preferences__list {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.preferences-title {
+.preferences__title {
   display: flex;
 }
 
-.preferences-container {
+.preferences__container {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
 
-.preferences-container:last-child {
+.preferences__container:last-child {
   margin-right: 0;
 }
