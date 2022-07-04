@@ -8,12 +8,12 @@
 
   padding-top: 60px;
   padding-bottom: 60px;
-}
 
-.footer__item .logo {
-  margin-right: 0;
-}
+  & .logo {
+    margin-right: 0;
+  }
 
-.footer__item .link {
-  margin-bottom: 20px;
+  & .link {
+    margin-bottom: 20px;
+  }
 }
